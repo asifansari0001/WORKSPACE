@@ -108,7 +108,9 @@ function FluidExample() {
                 src={security}
               />
               <Card.Body>
-                <Card.Title className="text-center fw-bold">Data Secured</Card.Title>
+                <Card.Title className="text-center fw-bold">
+                  Data Secured
+                </Card.Title>
                 <Card.Text className="fw-light text-center">
                   workspace ensures data security, safeguarding client and
                   freelancer information
@@ -147,13 +149,18 @@ function FluidExample() {
         </div>
       </div>
 
-      <div className="container-fluid p-0 mb-5">
-        <div className="position-relative">
-          <Image
-            src={artisticblue}
-            className="w-100"
-            style={{ maxHeight: "700px", display: "block" }}
-          />
+      <div className="container-fluid p-0 mb-5 position-relative">
+        <Image
+          src={artisticblue}
+          className="w-100"
+          style={{ maxHeight: "700px", display: "block" }}
+        />
+        <div className="overlay-text position-absolute top-0 start-50 translate-middle-x text-center mt-5">
+          <h1 className="text-white fw-bold">MOST VIEWED FREELANCERS</h1>
+          <h6 className="text-white fw-light fs-5 mt-3">
+            Most viewed freelancers are top-rated for their skills, reviews, and
+            successful projects, making them easy for clients to find and hire.
+          </h6>
         </div>
       </div>
     </>
