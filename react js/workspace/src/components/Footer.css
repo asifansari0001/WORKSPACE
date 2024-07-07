@@ -1,0 +1,112 @@
+/* Footer.css */
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: left;
+    position: relative;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .footer-section {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer .logo-text {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer .contact span {
+    display: block;
+    margin: 10px 0;
+}
+
+.footer .socials a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer .socials a:hover {
+    color: #ffd700;
+}
+
+.footer .footer-section h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer .footer-section h2::after {
+    content: '';
+    background: #ffd700;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 5px;
+}
+
+.footer .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer .footer-section ul li a:hover {
+    color: #ffd700;
+}
+
+.footer .contact-form .text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer .contact-form .btn {
+    padding: 10px 20px;
+    background: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+
+.footer .contact-form .btn:hover {
+    background: #fff;
+}
+
+.footer-bottom {
+    background: #222;
+    color: #bbb;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

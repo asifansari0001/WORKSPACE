@@ -1,0 +1,34 @@
+.color_white .dropdown-toggle,
+.color_white .dropdown-item,
+.color_white .dropdown-item:hover,
+.color_white .dropdown-item:focus {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40 !important; /* Change to your desired background color */
+    border: none; /* Remove border if needed */
+  }
+
+  .navbar .dropdown-item {
+    color: white !important;
+  }
+  
+  .navbar .dropdown-item:hover,
+  .navbar .dropdown-item:focus {
+    background-color: #495057 !important; /* Darker shade for hover */
+    color: white !important;
+  }
+  
+
+  /* navbar right side elements */
+
+  .navbar-nav {
+    margin-right: 10px; /* Adjust this value as needed */
+  }
+  
+  .navbar .btn {
+    margin-right: -100px; /* Adjust this value as needed */
+  }
+  
