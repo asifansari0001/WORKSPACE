@@ -226,3 +226,108 @@
     padding-right: 16px;
   }
 }
+
+
+/* most wanted freelancers section */
+
+
+
+
+.freelancer-text h1 {
+  font-size: 2.3rem;
+}
+
+.freelancer-text h6 {
+  font-size: 1rem;
+  
+}
+  
+
+@media (min-width: 576px) {
+  .freelancer-text h1 {
+    font-size: 1.39rem;
+    white-space: nowrap;
+  }
+
+  .freelancer-text h6 {
+    font-size: 0.65rem;
+    
+  }
+}
+
+@media (min-width: 768px) {
+  .freelancer-text h1 {
+    font-size: 1.85rem;
+  }
+
+  .freelancer-text h6 {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .freelancer-text h1 {
+    font-size: 2rem;
+  }
+
+  .freelancer-text h6 {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .freelancer-text h1 {
+    font-size: 2.45rem;
+  }
+
+  .freelancer-text h6 {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .freelancer-text h1 {
+    font-size: 1rem;
+    white-space: nowrap;
+    
+  }
+
+  .freelancer-text h6 {
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .freelancer-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .freelancer-text h6 {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+
+/*  animated info */
+
+.line-container {
+  gap: 20px; /* Adjust as needed for larger screens */
+}
+
+@media (max-width: 768px) {
+  .line-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust as needed for smaller screens */
+  }
+  .mx-2 {
+    margin: 10px 0; /* Adjust as needed */
+  }
+}
+
