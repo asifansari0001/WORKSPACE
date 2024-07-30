@@ -1,9 +1,9 @@
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
+
 import Carousel from "react-bootstrap/Carousel";
 import women_laptop from "../assets/woman_laptop.jpg";
 import work_top from "../assets/client_home.jpg";
-
 import shakehand from "../assets/shakehand.jpg";
 import call_center from "../assets/call_center.jpg";
 import security from "../assets/security.jpg";
@@ -11,7 +11,6 @@ import artisticblue from "../assets/artistic-blue.jpg";
 import john from "../assets/john.jpg";
 import green from "../assets/green.jpg";
 import issac from "../assets/issac.jpg";
-import christopher from "../assets/christopher.jpg";
 import Pencil from "../assets/Pencil.png";
 import feedback from "../assets/feedback.png";
 import todo from "../assets/todo.png";

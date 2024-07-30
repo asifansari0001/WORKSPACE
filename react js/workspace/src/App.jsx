@@ -2,9 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CollapsibleExample from './components/Navbar';
 import Footer from "./components/footer.jsx";
 import FluidExample from './components/Home.jsx';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
+import WithHeaderExample from './components/Jobspage.jsx';
+import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 
 
 
@@ -18,9 +17,9 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<FluidExample/>}>
+      <Route path="/" element={<FluidExample />} />
+      <Route path="/jobpage" element={<WithHeaderExample />} />
 
-        </Route>
 
       </Routes>
 

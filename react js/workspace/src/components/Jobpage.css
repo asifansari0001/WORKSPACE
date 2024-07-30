@@ -1,0 +1,81 @@
+/* In your CSS file */
+.responsive-heading {
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+  }
+  
+  /* Adjust font size for smaller screens */
+  @media (max-width: 1200px) {
+    .responsive-heading {
+      font-size: 3.5rem;
+      letter-spacing: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .responsive-heading {
+      font-size: 3rem;
+      letter-spacing: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-heading {
+      font-size: 2.5rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .responsive-heading {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  /* sidebar */
+
+  
+  /* Sidebar styles */
+
+  .image-header-container {
+    position: relative;
+    margin-bottom: 50px; /* Adjust spacing as needed */
+  }
+  
+  .header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Space between sidebar and content */
+  }
+  
+  .sidebar {
+    width: 300px; /* Adjust width as needed */
+    height: 500px;
+    padding: 20px;
+    height: calc(100vh - 700px - 50px); /* Adjust height to fit under image */
+
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* form */
+
+  .form-check-label {
+    font-size: 1rem;
+  }
+
+  
+  
